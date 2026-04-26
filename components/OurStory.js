@@ -16,7 +16,7 @@ export default function OurStory() {
       </div>
 
       <div className="story-image">
-        <img src="/images/story-bg.png" alt="Mortons Rolls city backdrop" />
+        <img src="/images/our-story.png" alt="Mortons Rolls our story" />
       </div>
     </section>
   );
