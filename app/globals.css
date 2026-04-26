@@ -322,10 +322,10 @@ a { text-decoration: none; color: inherit; }
 
 .product-card img {
   width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
+  aspect-ratio: 4/3;
+  object-fit: contain;
   display: block;
-  border-radius: 4px;
+  background: #f9f7f4;
 }
 
 .product-info {
