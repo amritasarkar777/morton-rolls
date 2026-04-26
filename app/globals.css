@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+/*
+  TYPE SCALE
+  Display H1  — Oswald 700 / 72px / uppercase / ls 0
+  Section H2  — Oswald 700 / 48px / uppercase / ls 0
+  Sub-head H3 — Oswald 700 / 22px / uppercase / ls 0
+  Card H4     — Oswald 600 / 16px / uppercase / ls 0.5px
+  Labels H5   — Oswald 600 / 12px / uppercase / ls 3px  (nav, footer cols, overlines)
+  Buttons     — Oswald 600 / 15px / uppercase / ls 1px
+  Body        — Montserrat 400 / 14px / lh 1.7
+  Small/meta  — Montserrat 400 / 12px / lh 1.6
+*/
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 .orange { color: #F04E23; }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
   background: #fff;
   color: #1a1a1a;
 }
@@ -61,6 +75,7 @@ a { text-decoration: none; color: inherit; }
   color: #F04E23;
 }
 
+/* H5 label scale — Oswald 600 / 12px / uppercase / ls 3px */
 .nav-links {
   display: flex;
   align-items: center;
@@ -70,22 +85,28 @@ a { text-decoration: none; color: inherit; }
 }
 
 .nav-links a {
-  color: #fff;
+  font-family: 'Oswald', sans-serif;
   font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
+  color: #fff;
   transition: color 0.2s;
 }
 
 .nav-links a:hover { color: #F04E23; }
 
+/* Button scale — Oswald 600 / 15px / uppercase / ls 1px */
 .nav-cta {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   background: #F04E23;
   color: #fff !important;
   padding: 10px 22px;
-  font-weight: 700 !important;
-  letter-spacing: 1px;
+  transition: background 0.2s;
 }
 
 .nav-cta:hover { background: #d43e18; color: #fff !important; }
@@ -122,6 +143,7 @@ a { text-decoration: none; color: inherit; }
   max-width: 600px;
 }
 
+/* Display H1 — Oswald 700 / 72px */
 .hero h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 72px;
@@ -129,18 +151,21 @@ a { text-decoration: none; color: inherit; }
   line-height: 1.0;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 0;
   margin-bottom: 16px;
 }
 
-.hero h1 .orange { color: #F04E23; }
-
+/* Body copy */
 .hero-sub {
-  color: #ccc;
-  font-size: 15px;
-  margin-bottom: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   font-weight: 400;
+  color: #ccc;
+  line-height: 1.7;
+  margin-bottom: 32px;
 }
 
+/* Button */
 .hero-btn {
   display: inline-flex;
   align-items: center;
@@ -159,8 +184,8 @@ a { text-decoration: none; color: inherit; }
 }
 
 .hero-btn:hover { background: #d43e18; }
-.hero-btn-arrow { font-size: 18px; }
 
+/* Badge — H5 label scale */
 .hero-badge {
   position: absolute;
   right: 80px;
@@ -178,9 +203,9 @@ a { text-decoration: none; color: inherit; }
   text-align: center;
   color: #fff;
   font-family: 'Oswald', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   line-height: 1.4;
 }
@@ -209,22 +234,25 @@ a { text-decoration: none; color: inherit; }
   display: block;
 }
 
+/* Sub-heading H3 — Oswald 700 / 22px */
 .benefit-item h3 {
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0;
   color: #1a1a1a;
   line-height: 1.3;
   margin-bottom: 12px;
 }
 
-.benefit-item h3 .orange { color: #F04E23; }
-
+/* Body copy */
 .benefit-item p {
-  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   color: #666;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* ── OUR STORY ── */
@@ -242,35 +270,41 @@ a { text-decoration: none; color: inherit; }
   justify-content: center;
 }
 
+/* Overline label — H5 scale */
 .story-label {
+  font-family: 'Oswald', sans-serif;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #F04E23;
   margin-bottom: 20px;
 }
 
+/* Section H2 — Oswald 700 / 48px */
 .story-content h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 1.1;
+  letter-spacing: 0;
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 24px;
 }
 
-.story-content h2 .orange { color: #F04E23; }
-
+/* Body copy */
 .story-content p {
-  color: #aab4c0;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  line-height: 1.8;
+  font-weight: 400;
+  color: #aab4c0;
+  line-height: 1.7;
   margin-bottom: 36px;
   max-width: 420px;
 }
 
+/* Button */
 .story-btn {
   display: inline-flex;
   align-items: center;
@@ -280,7 +314,7 @@ a { text-decoration: none; color: inherit; }
   color: #F04E23;
   padding: 12px 24px;
   font-family: 'Oswald', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -314,13 +348,14 @@ a { text-decoration: none; color: inherit; }
   margin-bottom: 48px;
 }
 
+/* Section H2 — Oswald 700 / 48px (matches story h2) */
 .products-header h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0;
   color: #1a1a1a;
-  letter-spacing: 2px;
 }
 
 .products-grid {
@@ -354,26 +389,31 @@ a { text-decoration: none; color: inherit; }
   padding: 16px 18px 20px;
 }
 
+/* Card title H4 — Oswald 600 / 16px */
 .product-info h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
   color: #1a1a1a;
   margin-bottom: 6px;
-  letter-spacing: 0.5px;
 }
 
+/* Small body */
 .product-info p {
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  font-weight: 400;
   color: #777;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .products-footer {
   text-align: center;
 }
 
+/* Button */
 .view-all-btn {
   display: inline-flex;
   align-items: center;
@@ -407,7 +447,6 @@ footer {
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-/* Footer logo */
 .footer-logo {
   display: flex;
   align-items: center;
@@ -434,26 +473,32 @@ footer {
   line-height: 1.4;
 }
 
+/* Body copy */
 .footer-tagline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   color: #c8d0d8;
-  font-size: 13px;
-  line-height: 1.6;
+  line-height: 1.7;
   margin-bottom: 4px;
 }
 
+/* Small/meta */
 .footer-tagline-sub {
-  color: #6b7a88;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  font-weight: 400;
+  color: #6b7a88;
   line-height: 1.6;
 }
 
-/* Footer columns */
+/* Footer column labels — H5 scale */
 .footer-col h5 {
   font-family: 'Oswald', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
   color: #F04E23;
   margin-bottom: 20px;
 }
@@ -465,15 +510,17 @@ footer {
   gap: 10px;
 }
 
+/* Small body */
 .footer-col ul a {
-  color: #8a9aaa;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
+  font-weight: 400;
+  color: #8a9aaa;
   transition: color 0.2s;
 }
 
 .footer-col ul a:hover { color: #F04E23; }
 
-/* Social icons */
 .social-icons {
   display: flex;
   gap: 12px;
@@ -493,10 +540,12 @@ footer {
 
 .social-icon:hover { border-color: #F04E23; background: #F04E23; }
 
-/* Newsletter */
+/* Small body */
 .footer-newsletter-text {
-  color: #8a9aaa;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
+  font-weight: 400;
+  color: #8a9aaa;
   line-height: 1.6;
   margin-bottom: 16px;
 }
@@ -512,9 +561,9 @@ footer {
   border: 1px solid rgba(255,255,255,0.12);
   border-right: none;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   outline: none;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .newsletter-form input::placeholder { color: #4a5a6a; }
@@ -532,7 +581,7 @@ footer {
 
 .newsletter-form button:hover { background: #d43e18; }
 
-/* Footer bottom */
+/* Footer bottom — small/meta */
 .footer-bottom {
   display: flex;
   align-items: center;
@@ -543,8 +592,9 @@ footer {
 }
 
 .footer-bottom > p {
-  color: #4a5a6a;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  color: #4a5a6a;
 }
 
 .footer-legal {
@@ -553,8 +603,9 @@ footer {
 }
 
 .footer-legal a {
-  color: #4a5a6a;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  color: #4a5a6a;
   transition: color 0.2s;
 }
 
@@ -564,11 +615,12 @@ footer {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #8a9aaa;
-  font-size: 11px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   text-transform: uppercase;
+  color: #8a9aaa;
 }
 
 /* ── RESPONSIVE ── */
@@ -586,14 +638,15 @@ footer {
   .menu-btn { display: block; }
   .hero { padding: 0 24px; min-height: 70vh; }
   .hero h1 { font-size: 40px; }
-  .hero-badge { right: 24px; bottom: 24px; width: 90px; height: 90px; font-size: 9px; }
+  .hero-badge { right: 24px; bottom: 24px; width: 90px; height: 90px; font-size: 10px; }
   .benefits { grid-template-columns: 1fr; }
   .benefit-item { border-right: none; border-bottom: 1px solid #eee; }
   .story { grid-template-columns: 1fr; }
   .story-image { height: 260px; }
   .story-content { padding: 48px 24px; }
-  .story-content h2 { font-size: 32px; }
+  .story-content h2 { font-size: 36px; }
   .products { padding: 48px 24px; }
+  .products-header h2 { font-size: 36px; }
   .products-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .footer-top { grid-template-columns: 1fr; padding: 48px 24px 32px; gap: 32px; }
   .footer-bottom { padding: 16px 24px; flex-direction: column; align-items: flex-start; }
