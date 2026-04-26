@@ -175,9 +175,8 @@ a { text-decoration: none; color: inherit; }
 .benefit-item:last-child { border-right: none; }
 
 .benefit-icon-img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
+  width: 160px;
+  height: auto;
   margin: 0 auto 20px;
   display: block;
 }
@@ -400,7 +399,6 @@ footer {
   width: auto;
   display: block;
   margin-bottom: 16px;
-  filter: brightness(0) invert(1);
 }
 
 /* Body copy */
