@@ -313,16 +313,11 @@ a { text-decoration: none; color: inherit; }
 }
 
 .product-card {
-  background: #fff;
-  border-radius: 4px;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s;
 }
 
 .product-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
 
 .product-card img {
@@ -330,10 +325,11 @@ a { text-decoration: none; color: inherit; }
   aspect-ratio: 1;
   object-fit: cover;
   display: block;
+  border-radius: 4px;
 }
 
 .product-info {
-  padding: 16px 18px 20px;
+  padding: 14px 4px 0;
 }
 
 /* Card title H4 — Oswald 600 / 16px */
