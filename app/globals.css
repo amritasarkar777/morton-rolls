@@ -42,7 +42,7 @@ a { text-decoration: none; color: inherit; }
 .logo { display: flex; align-items: center; }
 
 .logo-img {
-  height: 72px;
+  height: 90px;
   width: auto;
   display: block;
 }
@@ -339,6 +339,7 @@ a { text-decoration: none; color: inherit; }
 
 .product-info {
   padding: 14px 4px 0;
+  text-align: center;
 }
 
 /* Content heading — Oswald 700 / 20px (same as benefit headings) */
@@ -400,7 +401,7 @@ footer {
 }
 
 .footer-logo-img {
-  height: 56px;
+  height: 90px;
   width: auto;
   display: block;
   margin-bottom: 16px;
