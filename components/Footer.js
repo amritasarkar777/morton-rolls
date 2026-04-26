@@ -3,27 +3,12 @@ export default function Footer() {
     <footer>
       <div className="footer-top">
 
-        {/* Brand */}
         <div className="footer-brand">
-          <div className="footer-logo">
-            <span className="footer-logo-icon">
-              <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
-                <circle cx="20" cy="20" r="20" fill="#F04E23"/>
-                <ellipse cx="20" cy="24" rx="12" ry="7" fill="#fff" opacity="0.9"/>
-                <ellipse cx="20" cy="20" rx="10" ry="6" fill="#FAD59A"/>
-                <path d="M12 18 Q20 10 28 18" stroke="#F04E23" strokeWidth="1.5" fill="none"/>
-              </svg>
-            </span>
-            <div>
-              <div className="footer-logo-name">MORTONS</div>
-              <div className="footer-logo-sub">— ROLLS —</div>
-            </div>
-          </div>
+          <img src="/images/logo.png" alt="Mortons Rolls" className="footer-logo-img" />
           <p className="footer-tagline">We build this city on great rolls.</p>
           <p className="footer-tagline-sub">Make your day, by starting it on a Mortons roll.</p>
         </div>
 
-        {/* Quick Links */}
         <div className="footer-col">
           <h5>Quick Links</h5>
           <ul>
@@ -35,7 +20,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Follow Us */}
         <div className="footer-col">
           <h5>Follow Us</h5>
           <div className="social-icons">
@@ -59,7 +43,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Newsletter */}
         <div className="footer-col">
           <h5>Newsletter</h5>
           <p className="footer-newsletter-text">

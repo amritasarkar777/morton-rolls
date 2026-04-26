@@ -7,11 +7,9 @@ export default function Navbar() {
 
   return (
     <header className="nav">
-      <div className="logo">
-        <span className="logo-icon">🍞</span>
-        <span className="logo-name">MORTONS</span>
-        <span className="logo-sub">ROLLS</span>
-      </div>
+      <a href="/" className="logo">
+        <img src="/images/logo.png" alt="Mortons Rolls" className="logo-img" />
+      </a>
 
       <ul className={`nav-links${open ? ' open' : ''}`}>
         <li><a href="#rolls">Our Rolls</a></li>

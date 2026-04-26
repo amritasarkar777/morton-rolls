@@ -20,18 +20,8 @@ export default function Hero() {
         </h1>
         <p className="hero-sub">Proudly baked in Scotland. Loved every day.</p>
         <button className="hero-btn">
-          DISCOVER OUR ROLLS <span className="hero-btn-arrow">›</span>
+          DISCOVER OUR ROLLS <span>›</span>
         </button>
-      </motion.div>
-
-      <motion.div
-        className="hero-badge"
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.6, delay: 0.5 }}
-      >
-        <span className="hero-badge-icon">🍞</span>
-        BAKED FRESH<br />EVERY DAY
       </motion.div>
     </section>
   );

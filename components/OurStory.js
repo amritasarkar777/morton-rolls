@@ -16,7 +16,7 @@ export default function OurStory() {
       </div>
 
       <div className="story-image">
-        <img src="/images/hero.jpg" alt="Edinburgh city" />
+        <img src="/images/story-bg.png" alt="Mortons Rolls city backdrop" />
       </div>
     </section>
   );
