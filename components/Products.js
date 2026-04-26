@@ -5,22 +5,22 @@ import { motion } from 'framer-motion';
 const products = [
   {
     img: '/images/roll-morning.png',
-    name: '6 Scottish Morning Rolls',
+    name: <>6 Scottish<br />Morning Rolls</>,
     desc: 'Soft, versatile and perfect for every morning.',
   },
   {
     img: '/images/roll-square.png',
-    name: '4 Scottish Square Rolls',
+    name: <>4 Scottish<br />Square Rolls</>,
     desc: 'Hearty, satisfying and great for filled rolls.',
   },
   {
     img: '/images/roll-seeded.png',
-    name: '4 Scottish Seeded Rolls',
+    name: <>4 Scottish<br />Seeded Rolls</>,
     desc: 'Packed with flavour and everyday goodness.',
   },
   {
     img: '/images/roll-mini.png',
-    name: '6 Scottish Mini Rolls',
+    name: <>6 Scottish<br />Mini Rolls</>,
     desc: 'Perfect for sharing, lunchboxes and more.',
   },
 ];
