@@ -4,7 +4,7 @@ export default function Benefits() {
       icon: '/images/benefits-icon-bun.png',
       alt: 'Bun icon',
       title: <>CRISPY OUTSIDE.<br /><span className="orange">SOFT INSIDE.</span></>,
-      desc: "The perfect texture in every bite. That's the Mortons difference.",
+      desc: <>The perfect texture in every bite.<br />That&apos;s the Mortons difference.</>,
     },
     {
       icon: '/images/benefits-icon-sun.png',
