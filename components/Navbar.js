@@ -19,8 +19,9 @@ export default function Navbar() {
         <li><a href="#where">Where to Buy</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a className="nav-cta" href="#where">Find Us</a></li>
       </ul>
+
+      <a className="nav-cta" href="#where">Find Us</a>
 
       <button className="menu-btn" onClick={() => setOpen(!open)} aria-label="Menu">
         {open ? '✕' : '☰'}
