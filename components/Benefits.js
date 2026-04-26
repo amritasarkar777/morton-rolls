@@ -9,7 +9,7 @@ export default function Benefits() {
     {
       icon: '/images/benefits-icon-sun.png',
       alt: 'Sun icon',
-      title: <><span className="orange">THE ONLY WAY<br />TO START YOUR DAY.</span></>,
+      title: <>THE ONLY WAY<br /><span className="orange">TO START YOUR DAY.</span></>,
       desc: 'Made for mornings. Made for your everyday.',
     },
     {
