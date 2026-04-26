@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 export default function Hero() {
   return (
     <section className="hero">
+      <img src="/images/hero-bg.png" alt="" className="hero-bg-img" />
       <div className="hero-overlay" />
 
       <motion.div
