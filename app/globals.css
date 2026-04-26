@@ -181,10 +181,10 @@ a { text-decoration: none; color: inherit; }
   display: block;
 }
 
-/* Sub-heading H3 — Oswald 700 / 22px */
+/* Content heading — Oswald 700 / 20px (benefits + product cards) */
 .benefit-item h3 {
   font-family: 'Oswald', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0;
@@ -332,13 +332,13 @@ a { text-decoration: none; color: inherit; }
   padding: 14px 4px 0;
 }
 
-/* Card title H4 — Oswald 600 / 16px */
+/* Content heading — Oswald 700 / 20px (same as benefit headings) */
 .product-info h4 {
   font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0;
   color: #1a1a1a;
   margin-bottom: 6px;
 }
