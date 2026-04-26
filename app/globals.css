@@ -174,9 +174,11 @@ a { text-decoration: none; color: inherit; }
 
 .benefit-item:last-child { border-right: none; }
 
-.benefit-icon {
-  font-size: 36px;
-  margin-bottom: 16px;
+.benefit-icon-img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin: 0 auto 20px;
   display: block;
 }
 
