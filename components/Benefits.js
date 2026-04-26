@@ -10,13 +10,13 @@ export default function Benefits() {
       icon: '/images/benefits-icon-sun.png',
       alt: 'Sun icon',
       title: <>THE ONLY WAY<br /><span className="orange">TO START YOUR DAY.</span></>,
-      desc: 'Made for mornings. Made for your everyday.',
+      desc: <>Made for mornings.<br />Made for your everyday.</>,
     },
     {
       icon: '/images/benefits-icon-grain.png',
       alt: 'Grain icon',
       title: <>BAKED FRESH.<br /><span className="orange">EVERY DAY.</span></>,
-      desc: 'We bake fresh, so you can enjoy them at their best.',
+      desc: <>We bake fresh, so you can<br />enjoy them at their best.</>,
     },
   ];
 
